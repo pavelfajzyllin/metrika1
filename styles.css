@@ -1,6 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Manrope", sans-serif;
+
 }
+h1,
+h2,
+h3,
+p,
+div{
+  letter-spacing: -0.03em;
+}
+
+
 
 .container {
   margin: 0 auto;
@@ -8,13 +22,11 @@ body {
   padding: 0 15px;
 }
 h1.title {
-  width: 956px;
+  width: 975px;
   font-size: 60px;
   font-weight: 400;
   line-height: 60px;
-  letter-spacing: -3%;
   text-align: left;
-  letter-spacing: -0.03em;
   margin-bottom: 30px;
 }
 
@@ -35,9 +47,7 @@ h1.title {
   font-size: 20px;
   font-weight: 400;
   line-height: 27px;
-  letter-spacing: -3%;
   text-align: left;
-  letter-spacing: -0.03em;
   color: rgb(255, 255, 255);
 }
 
@@ -46,16 +56,14 @@ h2 {
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
-  letter-spacing: -0.03em;
   text-align: left;
 }
 p.description {
-  width: 1051px;
+  width: 1048px;
   margin-top: 30px;
   font-size: 45px;
   font-weight: 400;
   line-height: 61px;
-  letter-spacing: -0.03em;
   text-align: left;
 }
 a.uslugi_btn {
@@ -63,12 +71,11 @@ a.uslugi_btn {
   margin-top: 30px;
   background-color: rgb(173, 24, 24);
   padding: 20px 40px;
-
+  text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 400;
   line-height: 27px;
-  letter-spacing: -0.03em;
   text-align: left;
   border-radius: 5px;
 }
@@ -77,10 +84,11 @@ a.uslugi_btn {
   height: 2122px;
   margin: 0 auto;
   width: 1150px;
-  margin-top: 254px;
+  margin-top: 199px;
   margin-bottom: 101px;
 }
 .projects-title {
+  padding-left: 8px;
   padding-right: 1071px;
   margin-bottom: 30px;
 
@@ -110,7 +118,6 @@ a.projects_btn {
   font-size: 20px;
   font-weight: 400;
   line-height: 27px;
-  letter-spacing: -0.03em;
   text-align: left;
   text-decoration: none;
 }
@@ -130,7 +137,6 @@ a.projects-btn {
   font-size: 30px;
   font-weight: 400;
   line-height: 41px;
-  letter-spacing: -3%;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
@@ -141,13 +147,13 @@ a.projects-btn {
 }
 
 .section_2 {
-  margin: 0 auto;
-  width: 1400px;
+  width: 100%;
   height: 1844px;
   background-color: rgb(18, 18, 18);
-  padding-left: 125px;
-  padding-right: 125px;
-  margin-bottom: 0px;
+}
+.text_uslugi{
+  width: 1150px;
+  margin: 0 auto;
 }
 
 h1.section_2_title {
@@ -156,7 +162,6 @@ h1.section_2_title {
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
-  letter-spacing: -0.03em;
   text-align: left;
   margin-bottom: 34px;
 }
@@ -179,6 +184,157 @@ h2.uslugi {
   font-size: 30px;
   font-weight: 400;
   line-height: 41px;
-  letter-spacing: -0.03em;
   text-align: left;
+}
+
+.header {
+  min-width: 1151.35px;
+}
+.nav_container {
+  margin: 0 auto;
+  margin-bottom: 70px;
+  margin-top: 32.82px;
+  width: 1151.35px;
+  height: 25.18px;
+}
+.logo{
+  width: 126.89px;
+  height: 21.42px;
+}
+
+.logo_link{
+  display: inline-block;
+  margin-right: 558.46px;
+}
+.nav{
+  display: inline-block;
+  vertical-align: top
+}
+.nav__link{
+  display: inline-block;
+  margin-right: 50px;
+  color: rgb(18, 18, 18);
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.nav__link:last-child{
+  margin-right: 0px;
+}
+.nav__link:hover {
+  color: rgb(18, 18, 18);
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+.JKforest{
+  width: 100%;
+  height: 717px;
+  background-image: url(JKforest.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+.JKforest_for_text{
+  position: relative;
+  margin: 0 auto;
+  width: 1400px;
+  height: 717px;
+}
+.JKforest-text {
+  position: absolute;
+  left: 125px;
+  bottom: 60px;
+
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  line-height: 41px;
+  text-align: left;
+}
+
+.section_contacts{
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.contacts_text:before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-image: url(telefone.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  top: -34px;
+
+}
+.contacts{
+  position: relative;
+  width: 480px;
+  margin-top: 186px;
+  margin-left: 124px;
+  margin-bottom: 150px;
+}
+.contacts_text{
+color: rgb(18, 18, 18);
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+text-transform: uppercase;
+margin-bottom: 32px;
+}
+.tel{
+color: rgb(18, 18, 18);
+font-size: 60px;
+font-weight: 400;
+line-height: 60px;
+text-align: left;
+margin-bottom: 30px;
+}
+.e-mail{
+color: rgb(18, 18, 18);
+opacity: 0.5;
+font-size: 60px;
+font-weight: 400;
+line-height: 60px;
+text-align: left;
+text-decoration: underline;
+}
+
+.black_section {
+  display: inline-block;
+  width: 100%;
+  height: 229px;
+  background-color: black;
+}
+.black__link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-right: 55px;
+}
+.black__link:last-child{
+  margin-right: 0;
+}
+.black_text{
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 87px;
+}
+
+.text_on_black{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  margin-bottom: 30px;
 }
