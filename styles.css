@@ -296,15 +296,25 @@ line-height: 60px;
 text-align: left;
 margin-bottom: 30px;
 }
+.tel:hover{
+  color: rgb(18, 18, 18);
+  opacity: 0.5;
+  text-decoration: underline;
+}
 .e-mail{
 color: rgb(18, 18, 18);
-opacity: 0.5;
 font-size: 60px;
 font-weight: 400;
 line-height: 60px;
 text-align: left;
 text-decoration: underline;
 }
+.e-mail:hover{
+  color: rgb(18, 18, 18);
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
 
 .black_section {
   display: inline-block;
